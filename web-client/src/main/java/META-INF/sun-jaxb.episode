@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2019.02.18 时间 03:12:01 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://learnhow.org/ws/schema">
+    <schemaBindings map="false">
+      <package name="org.learnhow.ws.schema"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="org.learnhow.ws.schema.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="org.learnhow.ws.schema.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="org.learnhow.ws.schema.Country"/>
+    </bindings>
+    <bindings scd="tns:getUserRequest">
+      <class ref="org.learnhow.ws.schema.GetUserRequest"/>
+    </bindings>
+    <bindings scd="tns:getUserResponse">
+      <class ref="org.learnhow.ws.schema.GetUserResponse"/>
+    </bindings>
+    <bindings scd="~tns:user">
+      <class ref="org.learnhow.ws.schema.User"/>
+    </bindings>
+    <bindings scd="~tns:language">
+      <class ref="org.learnhow.ws.schema.Language"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="org.learnhow.ws.schema.Currency"/>
+    </bindings>
+    <bindings scd="~tns:gender">
+      <typesafeEnumClass ref="org.learnhow.ws.schema.Gender"/>
+    </bindings>
+  </bindings>
+</bindings>
+
